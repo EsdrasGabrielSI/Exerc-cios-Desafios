@@ -1,0 +1,21 @@
+EXERCÍCIO 1:
+import javax.swing.*;
+public class Main {
+    public static void main(String[] args) {
+      int numero = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira o número: "));
+      if(numero > 0){
+          JOptionPane.showMessageDialog(null, "Número positivo");
+      } else if (numero < 0){
+          JOptionPane.showMessageDialog(null, "Número Negativo");
+      } else if (numero == 0){
+          JOptionPane.showMessageDialog(null, "Número Neutro");
+
+
+        }
+
+
+
+    }
+}
+
+
